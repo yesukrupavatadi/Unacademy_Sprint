@@ -1,0 +1,99 @@
+Project structure:
+
+src/main/java:
+	com.config:
+		Config.properties
+		
+	com.pages:
+		LandingPage.java
+		LoginPage.java
+		HomePage.java
+			
+	com.utility:
+		Config.java
+		ConfigReader.java
+		ExcelReader.java
+		ExtentReporterManager.java
+		Utility.java
+		
+src/test/java:
+	apphooks:
+		ApplicationHooks.java
+	
+	loginpage1_stepdefinitions:
+		LoginPageSteps1.java
+	loginpage2_stepdefinitions:
+		LoginPageSteps2.java
+	loginpage3_stepdefinitions:
+	    LoginPageSteps3.java
+		
+	testrunner:
+		LoginPage1_TestRunner.java
+		LoginPage2_TestRunner.java	
+		LoginPage3_TestRunner.java	
+		
+src/main/resources:
+	ReadMe
+						
+src/test/resources:
+	Features folder
+		loginPage1.feature
+		loginPage2.feature	
+		loginpage3.feature	
+		testng.xml
+		
+cucumber-reports
+
+drivers folder:
+	chromedriver.exe
+	geckodriver.exe
+	htmlunit3-driver-4.9.0-jar-with-dependencies.jar
+	
+extent_reports
+	
+screenshots folder:
+	file.png	
+	
+pom.xml			
+--------------------------------------------------------------------------------------------------
+Project creation sequence:
+
+Create maven project
+Add the dependencies in pom.xml
+Maven project will have 4 sections by default(if not then create them):
+	src/main/java
+	src/main/resources
+	src/test/java
+	src/test/resources
+
+Create the required packages, classes, files in them as per below sequence:
+
+Step 1 --> Create Feature file
+Step 2 --> Create Config.properties
+Step 3 --> Create testdata.xlsx
+Step 4 --> Create ConfigReader.java
+Step 5 --> Create Utility.java
+Step 6 --> Create Config.java
+Step 7 --> Create ExcelReader.java
+Step 8 --> Create ExtentReporterManager.java
+Step 9 --> Create LandingPage.java
+Step 10 --> Create LoginPage.java
+Step 11 --> Create HomePage.java
+Step 12 --> Create ApplicationHooks.java
+Step 13 --> Create LoginPageSteps1.java
+Step 14 --> Create LoginPageSteps2.java
+Step 15 --> Create LoginPageSteps3.java
+Step 16 --> Create LoginPage1_TestRunner.java
+Step 17 --> Create LoginPage2_TestRunner.java
+Step 18 --> Create LoginPage3_TestRunner.java
+Step 19 --> Create loginpage1.feature
+Step 20 --> Create loginpage2.feature
+Step 21 --> Create loginpage3.feature
+
+
+Create the drivers folder and keep driver in it
+Create the screenshots folder to keep screenshots in it
+Run the tests by using Test class(individual test class) or pom.xml
+
+See the reports in test-output folder(created by testng)
+See the reports in target folder(created by maven)

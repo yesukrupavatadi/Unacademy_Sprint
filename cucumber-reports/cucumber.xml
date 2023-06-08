@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="71.331" tests="4" skipped="0" failures="1" errors="0">
+<testcase classname="Login1" name="Validate navigation of login page" time="8.242">
+<system-out><![CDATA[
+Given Chrome is opened and Unacademy app is opened..........................passed
+Then user navigates on landing page.........................................passed
+When User click on login button.............................................passed
+Then User navigates on to login page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login1" name="Validate UI of login page" time="9.273">
+<system-out><![CDATA[
+Given Chrome is opened and Unacademy app is opened..........................passed
+Then user navigates on landing page.........................................passed
+When User click on login button.............................................passed
+Then It shows elements of Unacademy login page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login1" name="Validate login page fields(loginbutton is clikable)" time="6.796">
+<system-out><![CDATA[
+Given Chrome is opened and Unacademy app is opened..........................passed
+Then user navigates on landing page.........................................passed
+When User click on login button.............................................passed
+Then User navigates on to login page........................................passed
+And elements are enabled on login page......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login1" name="Validate login page  Main functionality" time="46.747">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at loginpage1_stepdefinitions.LoginPageSteps1.it_shows_home_page(LoginPageSteps1.java:198)
+	at ✽.It shows home page(file:///C:/Users/YVATADI/eclipse-workspace/Unacademy_Login_Krupa/src/test/resources/Features/loginpage1.feature:30)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Chrome is opened and Unacademy app is opened..........................passed
+Then user navigates on landing page.........................................passed
+When User click on login button.............................................passed
+Then User navigates on to login page........................................passed
+When User enter mobilenumber "8179306455"...................................passed
+And User click on log in button.............................................passed
+When User enter otp.........................................................passed
+And User click on verify otp button.........................................passed
+Then It shows home page.....................................................failed
+]]></system-out>
+</testcase>
+</testsuite>

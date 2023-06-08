@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-08T15:35:33 IST" name="Default suite" finished-at="2023-06-08T15:36:45 IST" duration-ms="72093">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.LoginPage1_TestRunner@53fb3dab]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-06-08T15:35:33 IST" name="Default test" finished-at="2023-06-08T15:36:45 IST" duration-ms="72093">
+      <class name="testrunner.LoginPage1_TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.LoginPage1_TestRunner@53fb3dab]" started-at="2023-06-08T15:35:33 IST" name="setUpClass" finished-at="2023-06-08T15:35:34 IST" duration-ms="742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@231df705]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.LoginPage1_TestRunner@53fb3dab]" started-at="2023-06-08T15:35:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-08T15:35:42 IST" duration-ms="8351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate navigation of login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.LoginPage1_TestRunner@53fb3dab]" started-at="2023-06-08T15:35:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-08T15:35:51 IST" duration-ms="9281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate UI of login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.LoginPage1_TestRunner@53fb3dab]" started-at="2023-06-08T15:35:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-08T15:35:58 IST" duration-ms="6806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate login page fields(loginbutton is clikable)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.LoginPage1_TestRunner@53fb3dab]" started-at="2023-06-08T15:35:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-08T15:36:45 IST" duration-ms="46758" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate login page  Main functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login1"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at loginpage1_stepdefinitions.LoginPageSteps1.it_shows_home_page(LoginPageSteps1.java:198)
+at ✽.It shows home page(file:///C:/Users/YVATADI/eclipse-workspace/Unacademy_Login_Krupa/src/test/resources/Features/loginpage1.feature:30)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.LoginPage1_TestRunner@53fb3dab]" started-at="2023-06-08T15:36:45 IST" name="tearDownClass" finished-at="2023-06-08T15:36:45 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.LoginPage1_TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
